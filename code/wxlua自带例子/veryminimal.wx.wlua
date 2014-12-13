@@ -18,7 +18,7 @@ frame = nil
 function main()
 
     -- create the frame window
-    frame = wx.wxFrame( wx.NULL, wx.wxID_ANY, "wxLua Very Minimal Demo",
+    frame = wx.wxPlane( wx.NULL, wx.wxID_ANY, "wxLua Very Minimal Demo",
                         wx.wxDefaultPosition, wx.wxSize(450, 450),
                         wx.wxDEFAULT_FRAME_STYLE )
 
